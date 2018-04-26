@@ -35,12 +35,12 @@ for row in range ((width-11),width):
     print(bin(g))
     print(bin(b))
 
-    if(counter == 0)
-        b |= hm
-        print("--")
-        print(bin(r))
-        print("\n")
-        print(b_color)
+    # if(counter == 0)
+    #     b |= hm
+    #     print("--")
+    #     print(bin(r))
+    #     print("\n")
+    #     print(b_color)
 
 
 # print(img.show())
@@ -79,3 +79,25 @@ for row in range ((width-11),width):
 # print "Size: "
 # print(img.format, img.size)
 # print(img.show())
+
+def encode():
+    print("encode");
+
+def decode():
+    print("decode");
+
+def main():
+
+    print("type 'e' for encode\n");
+    print("type 'd' for decode\n");
+    choice = input("What would you like to do?\n")
+
+    if choice=='e':
+        encode()
+    elif choice=='d':
+        decode()
+    else:
+        print("error");
+
+if __name__ == "__main__":
+    main()
