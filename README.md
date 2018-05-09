@@ -1,6 +1,8 @@
 # Steganography
 
-User is able to encode the actual python code used for this project to an image by writing over the least significant bit of the RGB (red, green, blue) pixel values, and decode that python code from the image. This is a project for **CPSC 353 Security course**.
+By: Leigh Salvador
+
+User is able to encode the actual python code used for this project to a jpg image by writing over the least significant bit of the RGB (red, green, blue) pixel values. Then, the secret message (python code) is decoded from the image using the exported png file. This is a project for **CPSC 353 Security course**.
 
 ## Features
   * Text embedded inside images
